@@ -15,7 +15,10 @@ extension PostgreSQLDatabaseConfig {
         
 //        let database = env.isRelease ? "kokora":"vaporDebugDB"
         
-        let database = "kokora"//env.isRelease ? "kokora":"kokora"
+        let database = env.isRelease ? "vapor":"kokora"
+        
+        
+//        let database = "kokora"//env.isRelease ? "kokora":"kokora"
         
         var hostname = "127.0.0.1"
 //        var hostname = "localhost"
