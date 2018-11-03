@@ -19,7 +19,7 @@ final class Todo: Content {
 
 extension Todo : PostgreSQLModel{
     /// 创建表: Todos
-    static var entity: String = "Todos"
+//    static var entity: String = "Todos"
 }
 
 /// Allows `Todo` to be used as a dynamic migration.
