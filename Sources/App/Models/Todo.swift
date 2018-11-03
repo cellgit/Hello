@@ -18,7 +18,7 @@ final class Todo: Content {
 }
 
 extension Todo : PostgreSQLModel{
-    /// 创建表: HotKeys
+    /// 创建表: Todos
     static var entity: String = "Todos"
 }
 
